@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #F3F1C1;
+    font-family: poppins;
+    height: 970px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+   
+}
+ body ::-webkit-scrollbar{
+    display: none;  
+} 
+.mainpara{
+    position: relative;
+    left: 199px;
+    top: 87px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:   75px ;
+
+}
+.Today{
+    
+    font-family: "Zilla Slab Highlight";
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: 75px;
+    background:  transparent;
+}
+
+.container{
+    position: relative;
+    top: 106px;
+    left: 200px;
+    bottom: 30px;
+    background: #000;
+    border-radius: 30px;
+    height: 500px;
+    width: 1142px;
+    display: flex;
+}
+ a{
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 10;
+    
+}
+
+.eye-video{
+    position: relative;
+    /* top: 58px;
+    left: 12px; */
+    height: 224px;
+    width: 224px;
+}
+.eye{
+    position: relative;
+    top: 135px;
+    left: 90px;
+    
+}
+
+.tree-left{
+    position: relative;
+    top: -411px;
+    left: -13px;
+    /* margin: 70px; */
+}
+
+.tree{
+    height: 190px;
+    width: 190px;
+    border-radius: 115px;
+    rotate: -25deg;
+   
+}
+.lap-left{
+    height: 190px;
+    width: 190px;
+    border-radius: 115px;
+    rotate: -25deg;
+   
+}
+.laptop-left{
+    position: relative;
+    top: -266px;
+    left: 7px;
+}
+.tree-rig{
+    height: 185px;
+    width: 185px;
+    border-radius: 115px;
+    rotate: 25deg; 
+}
+.tree-right{
+    position: relative;
+    top: -464px;
+    left: 1342px;   
+}
+.lap-right{
+      height: 185px;
+    width: 185px;
+    border-radius: 115px;
+    rotate: 25deg;
+
+}
+.laptop-right{
+    position: relative;
+    top: -994px;
+    left: 1342px;     
+}
+.arr-img{
+    height: 220px;
+    width: 220px;
+}
+.arrow{
+    position: relative;
+bottom: 1321px;
+left: 635px;
+ }
+
+
+
+
+
+
+
+
+ .mobile-div {
+    width: 400px; /* Adjust based on image size */
+    height: 400px;
+    background-image: url("mobile.png");
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;}
+    
+    
+    
+    .mobile-div:hover {
+        background-image: url("hover-phone.png");
+    }
+    .mobile-div{
+        position: absolute;
+        
+    }
+    .mobile-div{
+        position: relative;
+        top: 40px;
+        left: 40px;
+        z-index: 10;
+       
+        height:420px ;
+        width: 365px;
+        border-radius: 30px;
+       
+        cursor: pointer;
+        
+    }
+    .phones-text{
+        position: relative;
+        right: -128px;
+        top: 356px;
+        color: #000;
+        font-family: Poppins;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; 
+       z-index: 11;
+    }
+
+
+
+
+
+    
+
+
+    .laptop-div {
+        width: 400px; /* Adjust based on image size */
+        height: 400px;
+        background-image: url("laptop.png");
+        background-size: cover;
+        transition: background-image 0.3s ease-in-out;
+    }
+        
+        
+        
+        .laptop-div:hover {
+            background-image: url("hover-laptop.png");
+        }
+        .laptop-div{
+            position: absolute;
+            top: 40px;
+            left: 740px;
+            height:420px ;
+            width: 365px;
+            border-radius: 30px;
+           
+            cursor: pointer;
+            z-index: 10;
+        }
+        .lap-text{
+            position: relative;
+            bottom: -354px;
+            left: 130px;  
+            color: #000;
+            font-family: Poppins;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%; 
+             z-index: 11;
+        }
+    
