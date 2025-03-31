@@ -12,10 +12,15 @@ body{
  body ::-webkit-scrollbar{
     display: none;  
 } 
-.mainpara{
+.main-cont{
     position: relative;
-    left: 199px;
-    top: 87px;
+    top: -65px;
+    height: 781px;
+}
+.mainpara{
+    position: absolute;
+    left: 198px;
+    top: 85px;
     color: #000;
     font-family: Poppins;
     font-size: 39px;
@@ -35,13 +40,13 @@ body{
 }
 
 .container{
-    position: relative;
-    top: 106px;
+    position: absolute;
+    top: 252px;
     left: 200px;
     bottom: 30px;
     background: #000;
-    border-radius: 30px;
-    height: 500px;
+    border-radius: 28px;
+    height: 498px;
     width: 1142px;
     display: flex;
 }
@@ -53,44 +58,45 @@ body{
 }
 
 .eye-video{
-    position: relative;
+    /* position: absolute; */
     /* top: 58px;
     left: 12px; */
     height: 224px;
     width: 224px;
+z-index: 0;
 }
 .eye{
-    position: relative;
-    top: 135px;
-    left: 90px;
+    position: absolute;
+    top: 138px;
+    left: 458px;
     
 }
 
 .tree-left{
-    position: relative;
-    top: -411px;
-    left: -13px;
+    position: absolute;
+    top: 240px;
+    left: -18px;
     /* margin: 70px; */
 }
 
 .tree{
-    height: 190px;
-    width: 190px;
+    height: 189px;
+    width: 189px;
     border-radius: 115px;
     rotate: -25deg;
    
 }
 .lap-left{
-    height: 190px;
-    width: 190px;
+    height: 189px;
+    width: 189px;
     border-radius: 115px;
     rotate: -25deg;
    
 }
 .laptop-left{
-    position: relative;
-    top: -266px;
-    left: 7px;
+    position: absolute;
+    top: 580px;
+    left: 10px;
 }
 .tree-rig{
     height: 185px;
@@ -99,8 +105,8 @@ body{
     rotate: 25deg; 
 }
 .tree-right{
-    position: relative;
-    top: -464px;
+    position: absolute;
+    top: 580px;
     left: 1342px;   
 }
 .lap-right{
@@ -111,8 +117,8 @@ body{
 
 }
 .laptop-right{
-    position: relative;
-    top: -994px;
+    position: absolute;
+    top: 241px;
     left: 1342px;     
 }
 .arr-img{
@@ -120,10 +126,11 @@ body{
     width: 220px;
 }
 .arrow{
-    position: relative;
-bottom: 1321px;
-left: 635px;
+    position: absolute;
+    top: 101px;
+left: 635px; 
  }
+
 
 
 
@@ -149,7 +156,7 @@ left: 635px;
         
     }
     .mobile-div{
-        position: relative;
+        position: absolute;
         top: 40px;
         left: 40px;
         z-index: 10;
@@ -161,9 +168,10 @@ left: 635px;
         cursor: pointer;
         
     }
+
     .phones-text{
-        position: relative;
-        right: -128px;
+        position: absolute;
+        right: 128px;
         top: 356px;
         color: #000;
         font-family: Poppins;
@@ -173,12 +181,6 @@ left: 635px;
         line-height: 150%; 
        z-index: 11;
     }
-
-
-
-
-
-    
 
 
     .laptop-div {
@@ -206,8 +208,8 @@ left: 635px;
             z-index: 10;
         }
         .lap-text{
-            position: relative;
-            bottom: -354px;
+            position: absolute;
+            top: 354px;
             left: 130px;  
             color: #000;
             font-family: Poppins;

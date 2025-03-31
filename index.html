@@ -11,9 +11,58 @@
 
   
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="headre.css">
+    <link rel="stylesheet" href="footer.css">
+   <link rel="stylesheet" href="profile.css">
 </head>
 <body>
-    <p class="mainpara">What’s on your mind <span class="Today">Today</span> </p>
+
+
+
+    <div class="header"> 
+        <header>
+        <div class="logo"> <a href="#"><img src="Zenspeclogo.png" alt="app-logo"></a></div>
+        <div class="middle"> <nav>
+             <ul class="nav-links">
+            <li><a href="#"><div class="Search"><img src="searchicon.png" alt=""> <input type="search" placeholder="Search a Gadget"></input></div></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Compare</a></li>
+            <li><a href="#">Price tracker</a></li>
+            <li><a href="#">Tech news</a></li>
+             </ul> 
+        </nav></div>
+
+
+        <button class="user"><a href="#"><img src="user-logo.svg" alt="user-icon" onclick="toggleDropdown()" ></a></button>
+
+    </header>
+    
+    <div class="dropdown-profile">
+
+        <div class="dropdown-content-profile" id="dropdown-content-profile">
+            <div class="triangle"></div>
+            <div class="order-list" >
+               <a href=""> <span class="pro-set">Profile and settings</span></a>
+               <hr class="one">
+               <a href=""> <span class="wish">Wishlist</span></a>
+               <hr class="two">
+               <a href=""> <span class="sup-cont">Support and Contact</span></a>
+               <hr class="three">
+               <a href=""> <span class="log">Log out</span></a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+  <div class="main-cont"> 
+     <p class="mainpara">What’s on your mind <span class="Today">Today</span> </p>
 
     
    
@@ -21,20 +70,48 @@
     <a id="hov" href="#"> <div class="mobile-div"><span class="phones-text">Phones</span></div></a>
 
      <div class="eye"><video class="eye-video" src="moving-eye.mp4" autoplay loop muted></video></div> 
-    <a id="hov" href="#"><div class="laptop-div"><span class="lap-text">Laptops</span></a></div></a>
+    <a id="hov" href="#"><div class="laptop-div"><span class="lap-text">Laptops</span></div></a>
 </div>
 
-
-
-
-
-<div class="tree-left"><video class="tree" src="tree.mp4.mp4" alt="" autoplay loop muted ></div>
-<div class="laptop-left"><video class="lap-left" src="lap.mp4.mp4" alt="" autoplay loop muted ></div>
+ <div class="tree-left"><video class="tree" src="tree.mp4.mp4" alt="" autoplay loop muted ></div>
+ <div class="laptop-left"><video class="lap-left" src="lap.mp4.mp4" alt="" autoplay loop muted ></div>
 
     <div class="tree-right"><video class="tree-rig" src="tree.mp4.mp4" alt="" autoplay loop muted ></div>
-        <div class="laptop-right"><video class="lap-right" src="lap-right.mp4.mp4" alt="" autoplay loop muted ></div>
+     <div class="laptop-right"><video class="lap-right" src="lap-right.mp4.mp4" alt="" autoplay loop muted ></div>
             <div class="arrow"><img class="arr-img" src="arrow-mark.png" alt=""></div>
 
-           
+ </div>
+       
+ 
+
+
+
+ <div class="footer">
+    <hr>
+    <footer>
+        <div class="f-left"> <span class="span-1">Zenspec</span>
+            <p> <span class="span1-1">© 2025, Zenspec.tech</span><br><span class="span1-2">All rights
+                    reserved.</span></p>
+        </div>
+
+        <div class="f-middle">
+            <p>About us <br>Contact us <br>Terms and conditions.</p>
+        </div>
+
+        <div class="f-right">
+            <p>Crafted with</p>
+            <div class="heart"><video autoplay loop muted src="zenspec.heart.mp4"></video>
+                <div class="overlay"></div>
+            </div>
+            <div class="social">
+                <button><i class="fa-brands fa-facebook"></i></button>
+                <button><i class="fa-brands fa-linkedin"></i></button>
+                <button><i class="fa-brands fa-youtube"></i></button>
+                <button><i class="fa-brands fa-instagram"></i></button>
+            </div>
+        </div>
+    </footer>
+
+</div>
 </body>
 </html>
