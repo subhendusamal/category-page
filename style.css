@@ -142,14 +142,14 @@ left: 635px;
  .mobile-div {
     width: 400px; /* Adjust based on image size */
     height: 400px;
-    background-image: url("mobile.png");
+    background-image: url("category-mobile.png");
     background-size: cover;
     transition: background-image 0.3s ease-in-out;}
     
     
     
     .mobile-div:hover {
-        background-image: url("hover-phone.png");
+        background-image: url("category-hover-phone.png");
     }
     .mobile-div{
         position: absolute;
@@ -186,7 +186,7 @@ left: 635px;
     .laptop-div {
         width: 400px; /* Adjust based on image size */
         height: 400px;
-        background-image: url("laptop.png");
+        background-image: url("category-laptop.png");
         background-size: cover;
         transition: background-image 0.3s ease-in-out;
     }
@@ -194,7 +194,7 @@ left: 635px;
         
         
         .laptop-div:hover {
-            background-image: url("hover-laptop.png");
+            background-image: url("category-hover-laptop.png");
         }
         .laptop-div{
             position: absolute;
