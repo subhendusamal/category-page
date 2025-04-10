@@ -8,6 +8,7 @@
  <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Iso&family=Yellowtail&family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   
     <link rel="stylesheet" href="style.css">
@@ -22,39 +23,22 @@
 
     <div class="header"> 
         <header>
-        <div class="logo"> <a href="#"><img src="Zenspeclogo.png" alt="app-logo"></a></div>
+        <div class="logo"> <a href="/home"><img src="Zenspeclogo.png" alt="app-logo"></a></div>
         <div class="middle"> <nav>
              <ul class="nav-links">
             <li><a href="#"><div class="Search"><img src="searchicon.png" alt=""> <input type="search" placeholder="Search a Gadget"></input></div></a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Category</a></li>
-            <li><a href="#">Compare</a></li>
-            <li><a href="#">Price tracker</a></li>
-            <li><a href="#">Tech news</a></li>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/category">Category</a></li>
+            <li><a href="#" onclick="event.preventDefault(); document.getElementById('postForm').submit();">Compare</a></li>
+            <form id="postForm" action="/compare/form" method="POST" style="display: none;"></form>
+            <li><a href="/pricetracker">Price tracker</a></li>
+            <li><a href="/technews">Tech news</a></li>
              </ul> 
         </nav></div>
-
-
-        <button class="user"><a href="#"><img src="user-logo.svg" alt="user-icon" onclick="toggleDropdown()" ></a></button>
-
+        <div class="user"><a href="#"><img src="user-logo.svg" alt="user-icon"></a></div>
+        <script src="app.js"></script>
     </header>
-    
-    <div class="dropdown-profile">
-
-        <div class="dropdown-content-profile" id="dropdown-content-profile">
-            <div class="triangle"></div>
-            <div class="order-list" >
-               <a href=""> <span class="pro-set">Profile and settings</span></a>
-               <hr class="one">
-               <a href=""> <span class="wish">Wishlist</span></a>
-               <hr class="two">
-               <a href=""> <span class="sup-cont">Support and Contact</span></a>
-               <hr class="three">
-               <a href=""> <span class="log">Log out</span></a>
-            </div>
-        </div>
-    </div>
-    </div>
+</div>
 
 
 

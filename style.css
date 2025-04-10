@@ -14,7 +14,7 @@ body{
 } 
 .main-cont{
     position: relative;
-    top: -65px;
+    top: -2px;
     height: 781px;
 }
 .mainpara{
@@ -58,9 +58,7 @@ body{
 }
 
 .eye-video{
-    /* position: absolute; */
-    /* top: 58px;
-    left: 12px; */
+    
     height: 224px;
     width: 224px;
 z-index: 0;
@@ -76,7 +74,6 @@ z-index: 0;
     position: absolute;
     top: 240px;
     left: -18px;
-    /* margin: 70px; */
 }
 
 .tree{
@@ -218,5 +215,11 @@ left: 635px;
             font-weight: 600;
             line-height: 150%; 
              z-index: 11;
+        }
+        .header{
+            position: fixed;
+            top: 0px;
+            width: 100vw;
+            z-index: 2000;
         }
     
